@@ -34,8 +34,7 @@ const Chat = () => {
       );
     }
   }, [channelId, setMessageData])
-
-  // console.log(messageData)
+ setInput("");
   
   return (
     <ChatContainer>
